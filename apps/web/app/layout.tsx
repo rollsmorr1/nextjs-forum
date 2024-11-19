@@ -4,7 +4,7 @@ import { Analytics } from '@vercel/analytics/react'
 
 import './globals.css'
 import { GitHubIcon } from '../components/icons/github'
-import { NextIcon } from '../components/icons/next'
+import { LogoIcon } from '../components/icons/next'
 import { DiscordIcon } from '../components/icons/discord'
 import { Metadata } from 'next'
 import { getBaseUrl } from '../utils/urls'
@@ -17,27 +17,27 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(getBaseUrl()),
   title: {
-    default: 'Next.js Discord Forum',
-    template: '%s | Next.js Discord Forum',
+    default: 'Fleek Discord Forum',
+    template: '%s | Fleek Discord Forum',
   },
-  description: 'The web version of the Next.js Discord server',
+  description: 'The web version of the Fleek Discord server',
   alternates: {
     canonical: getBaseUrl(),
   },
   openGraph: {
     title: {
-      default: 'Next.js Discord Forum',
-      template: '%s | Next.js Discord Forum',
+      default: 'Fleek Discord Forum',
+      template: '%s | Fleek Discord Forum',
     },
-    description: 'The web version of the Next.js Discord server',
+    description: 'The web version of the Fleek Discord server',
     type: 'website',
     url: getBaseUrl(),
-    siteName: 'Next.js Discord Forum',
+    siteName: 'Fleek Discord Forum',
   },
   twitter: {
     card: 'summary',
-    title: 'Next.js Discord Forum',
-    description: 'The web version of the Next.js Discord server',
+    title: 'Fleek Discord Forum',
+    description: 'The web version of the Fleek Discord server',
   },
 }
 
@@ -50,7 +50,7 @@ const RootLayout = ({ children }: RootLayoutProps) => {
         <header className="border-b border-neutral-700">
           <div className="container max-w-7xl flex mx-auto px-4 py-6 justify-between items-center">
             <h1 aria-hidden="true" className="sr-only">
-              Next.js Discord
+              Fleek Discord
             </h1>
 
             <a
@@ -58,16 +58,13 @@ const RootLayout = ({ children }: RootLayoutProps) => {
               className="hover:opacity-75 text-white hover:no-underline transition-all duration-200"
             >
               <span className="flex flex-col xs:flex-row xs:space-x-2  xs:items-center">
-                <NextIcon className="w-[90px]" />
-                <span className=" text-2xl font-bold tracking-tighter">
-                  Discord Forum
-                </span>
+                <LogoIcon className="w-[90px]" />
               </span>
             </a>
 
             <div className="flex space-x-5">
               <a
-                href="https://nextjs.org/discord"
+                href="https://discord.gg/fleek"
                 target="_blank"
                 rel="noopener"
                 aria-label="Discord Server Invite"

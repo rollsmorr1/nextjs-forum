@@ -4,7 +4,7 @@
   Next.js Discord Forum
 </h1>
 
-<p align="center">The Next.js Discord server indexed in the web</p>
+<p align="center">The Fleek Discord server indexed in the web</p>
 
 ## Getting Started
 

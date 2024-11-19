@@ -99,7 +99,7 @@ export const generateMetadata = async ({
     return notFound()
   }
   const title = userData.username
-  const description = `${userData.username}'s profile on the Next.js Discord Forum`
+  const description = `${userData.username}'s profile on the Fleek Discord Forum`
   const url = getCanonicalUserUrl(params.discordID)
 
   return {
@@ -113,7 +113,7 @@ export const generateMetadata = async ({
       description,
       url,
       type: 'website',
-      siteName: 'Next.js Discord Forum',
+      siteName: 'Fleek Discord Forum',
     },
     twitter: {
       card: 'summary',

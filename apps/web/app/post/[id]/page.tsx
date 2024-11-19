@@ -151,7 +151,7 @@ export const generateMetadata = async ({
       description,
       url,
       type: 'website',
-      siteName: 'Next.js Discord Forum',
+      siteName: 'Fleek Discord Forum',
     },
     twitter: {
       card: 'summary',
