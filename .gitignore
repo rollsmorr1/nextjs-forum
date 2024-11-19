@@ -34,3 +34,6 @@ yarn-error.log*
 
 # env files
 .env
+
+# repopack
+repopack-output.txt
