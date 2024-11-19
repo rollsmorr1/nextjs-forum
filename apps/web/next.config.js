@@ -9,6 +9,7 @@ const nextConfig = {
     ],
   },
   transpilePackages: ['ui'],
+  distDir: '.next',
 }
 
 module.exports = nextConfig
